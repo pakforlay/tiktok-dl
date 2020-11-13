@@ -24,8 +24,8 @@ const app = express();
 
 app.use(cors())
 
-app.listen(4000, () => {
-    console.log("Server berjalan di port 4000");
+app.listen(80, () => {
+    console.log("Server berjalan di port 80");
 });
 
 app.get('/tiktok', async (req,res) => {
